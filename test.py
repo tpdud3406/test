@@ -33,3 +33,11 @@ print(threes.shape)
 
 r1 = torch.rand(2,3)
 r2 = torch.rand(3,2)
+# 런타임 오류
+# r3 = r1 + r2
+
+r = (torch.rand(2,2) - 0.5) * 2 # -1과 1사이의 값
+print("랜덤 행렬값, r:")
+print(r)
+
+
